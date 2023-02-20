@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'RoganRegular';
+    src: local('RoganRegular'),
+      url('../fonts/Rogan/Rogan-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'FuturaBold';
+    src: local('FuturaBold'),
+      url('../fonts/futura/Futura Bold font.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'FuturaMedium';
+    src: local('FuturaMedium'),
+      url('../fonts/futura/futura medium bt.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Futura';
+    src: local('Futura') url('../fonts/futura/futur.ttf') format('truetype');
+  }
+  

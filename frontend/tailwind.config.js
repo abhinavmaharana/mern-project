@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        udemy_footer: "#1C1D1F"
+      }
+    },
   },
   plugins: [],
 }
